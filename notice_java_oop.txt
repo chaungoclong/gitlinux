@@ -1,0 +1,27 @@
+<====================================================NOTICE==============================================================>
+
+# Một số chú ý trong quá trình thực hành
+	* Overload:
+	 - Các phương thức có cùng (tên && là phương thức trong cùng 1 lớp).
+	 - Các phương thức khác kiểu dữ liệu trả về || khác kiểu dữ liệu của tham số || số lượng tham số với điều kiện phải có tham số.
+	* Override:
+	 - Lơp con ghi đè phương thức của lớp cha.
+	 - Các phương thức ở lớp con có thể giống hệt phương thức của lớp cha || giống tên.
+	 - Các phương thức của lớp con có thể khác phương thức của lớp cha về kiểu dữ liệu trả về, kiểu dữ liệu của tham số, số lượng tham số với điều kiện phải có tham số.
+	 - Không thể Override phương thức static.
+
+
+	* Abstract Class / Interface:
+		- Số lượng phương thức trong Lớp khi kế thừa hoặc triển khai từ Abstract Class / Interface phải bằng số lượng Abstract Method trong Abstract Class / bằng số lượng phương thức trong Interface.
+
+	* Static:
+		+ Phương thức Static:
+			- Một phương thức static chỉ có thể gọi một phương thức static khác, không thể gọi được một phương thức non-static.
+			- Phương thức Static thuộc Class không phải Đối tượng của Class(biến static, Class static tương tự)-> có thể truy cập thông qua lớp mà không cần tạo đối tượng.
+			- Không thể Override.
+
+	* Other:
+		+ Vai trò của Tham số trong hàm main() (Eclipse):
+		 -  Nếu không có tham số không thể chạy class trong Eclipse (không thấy danh sách của class | package trong danh sách Chạy).
+
+		+ Một Class được phép có access modifier là public nếu nó nằm trong tệp riêng của nó (tệp chứa nó có tên giống nó)

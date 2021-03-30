@@ -1,0 +1,11 @@
+<================================== NOTICE ===========================================>
+remote / branch
++ Tạo 1 cái cây có 1 gốc là nơi chứa các cành (branch).
++ cành có thể là các thư mục tải lên kho lưu trữ(repo).
++ Khi muốn thêm 1 thư mục vào repo 
+	-> khởi tạo git tại thư mục đó (git init)
+	-> tạo cành (branch) mới để chứa nó
+	-> nếu chưa có remote -> thêm remote
+	-> thêm tất cả các file (git add .)
+	-> tạo commit (git commit -m "something")
+	-> đẩy lên repo (git push -u <remote name> <branch name>)
