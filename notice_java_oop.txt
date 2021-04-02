@@ -19,6 +19,9 @@
 			- Một phương thức static chỉ có thể gọi một phương thức static khác, không thể gọi được một phương thức non-static.
 			- Phương thức Static thuộc Class không phải Đối tượng của Class(biến static, Class static tương tự)-> có thể truy cập thông qua lớp mà không cần tạo đối tượng.
 			- Không thể Override.
+	* IO/File:
+		+File:
+			- FileOutputStream: tạo file mới nếu file chưa tồn tại.
 
 	* Other:
 		+ Vai trò của Tham số trong hàm main() (Eclipse):
