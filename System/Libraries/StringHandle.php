@@ -9,7 +9,7 @@ class StringHandle
 	
 	function __construct()
 	{
-		echo "string handle";
+		echo "string handle edit";
 	}
 }
 ?>
